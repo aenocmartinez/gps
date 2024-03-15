@@ -8,6 +8,6 @@ type PersonDto struct {
 	Address       string    `json:"address,omitempty"`
 	Email         string    `json:"email,omitempty"`
 	Guardian      string    `json:"guardian,omitempty"`
-	GuardianPhone string    `json:"guardianPhone,omitempty"`
+	GuardianPhone string    `json:"guardian_phone,omitempty"`
 	Notes         []NoteDto `json:"notes,omitempty"`
 }

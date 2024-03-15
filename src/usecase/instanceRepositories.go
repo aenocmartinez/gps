@@ -1,5 +1,8 @@
 package usecase
 
-import "abix/src/domain"
+import (
+	"abix/src/dao/mock"
+	"abix/src/domain"
+)
 
-var personRepository domain.PersonRepository
+var personRepository domain.PersonRepository = mock.NewMockup()
