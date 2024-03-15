@@ -8,5 +8,5 @@ type UpdatePersonFormRequest struct {
 	Address       string `json:"address" binding:"required"`
 	Email         string `json:"email" binding:"required,email"`
 	Guardian      string `json:"guardian" binding:"required"`
-	GuardianPhone string `json:"guardianPhone" binding:"required"`
+	GuardianPhone string `json:"guardian_phone" binding:"required"`
 }

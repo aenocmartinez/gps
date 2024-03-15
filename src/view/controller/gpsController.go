@@ -48,6 +48,7 @@ func UpdatePerson(c *gin.Context) {
 
 	updatePerson := usecase.UpdatePersonUseCase{}
 	response := updatePerson.Execute(dto.PersonDto{
+		Id:            req.Id,
 		Name:          req.Name,
 		Birthdate:     req.Birthdate,
 		Phone:         req.Phone,
